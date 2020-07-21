@@ -1,0 +1,167 @@
+body {
+    background: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.navbar {
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 5.625rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    letter-spacing: .125rem;
+}
+
+.overlay {
+    height: 60vh;
+    background-image: url(../images/kaejaCase\ copy.png) ;
+    width: 100%;
+    background-repeat: no-repeat;  
+}
+
+h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.row {
+    height: 60vh;
+    width: 65vw;
+}
+
+.ddance {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .row {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .overlay {
+        height: 100vh;
+    }
+}
+
+.textSection {
+  width: 65vw;
+  height: 50vh;
+}
+
+.textSection p {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  font-weight: 300;
+}
+
+.textSectionTwo {
+    width: 65vw;
+    height: 90vh;
+}
+
+.textSectionTwo p {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-weight: 300;
+}
+
+.howMightWe {
+    background: rgba(255,255,255, 0.1);
+}
+
+.howMightWe p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.625rem;
+}
+
+.howMightWe span {
+    color: #fa004f;
+    font-weight: 500;
+    font-size: 1.875rem;
+}
+
+.textSectionThree {
+    width: 65vw;
+    height: 40vh;
+}
+
+.textSectionThree p {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-weight: 300;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.card {
+    background: rgba(255,255,255, 0.1);
+}
+
+.card p {
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.redText {
+    color: #fa004f;
+    font-weight: 500;
+    font-size: 1.375rem;
+
+}
+
+.textSectionFour {
+    width: 65vw;
+    height: 40vh;
+}
+
+.textSectionFour p {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-weight: 300;
+}
+
+.findingStyle img {
+    max-width: 80%;
+}
+
+.styleGuide {
+    height: 110vh;
+}
+
+.contrastKey {
+    background: rgba(255,255,255, 0.1);
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.875rem;
+}
+
+.protDesc {
+    width: 65vw;
+}
+
+.overlayCMHA {
+    height: 60vh;
+    background-image: url(../images/cmha.png) ;
+    background-repeat: no-repeat;  
+}
